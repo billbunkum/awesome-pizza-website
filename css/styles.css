@@ -6,3 +6,7 @@ body {
 	margin-top: -20px; /*counter-acts Bootstrap jumbotron margin*/
 	text-align: center;
 }
+
+.pizza-image {
+	margin: 0 auto;
+}

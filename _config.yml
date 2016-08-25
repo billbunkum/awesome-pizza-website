@@ -1,1 +1,9 @@
 title: Awesome Pizza
+
+home: /index.html
+menu: /menu.html
+location: /location.html
+about: /about.html
+contact: /contact.html
+blogLink: /#
+twit: https://twitter.com/billbunkum
