@@ -1,0 +1,8 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	margin-top: -20px; /*counter-acts Bootstrap jumbotron margin*/
+	text-align: center;
+}
