@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blogz
 title: garbage pizza
 ---
-<p /> Cool bot pizza is garbage...like, really.
+Cool bot pizza is garbage...like, really.

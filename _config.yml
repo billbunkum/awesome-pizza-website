@@ -1,4 +1,4 @@
-title: Awesome Pizza
+title: Cool Bot Pizza
 
 home: /index.html
 menu: /menu.html
@@ -9,4 +9,5 @@ blogLink: /#
 twit: https://twitter.com/billbunkum
 
 collections: 
-- reviews
+  reviews:
+    output: true
