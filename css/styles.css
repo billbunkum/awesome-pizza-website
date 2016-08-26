@@ -10,3 +10,9 @@ body {
 .pizza-image {
 	margin: 0 auto;
 }
+
+#blog-list {
+	margin: 0 auto;
+	text-align: center;
+	padding: 25px;
+}

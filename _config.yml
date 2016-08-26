@@ -7,3 +7,6 @@ about: /about.html
 contact: /contact.html
 blogLink: /#
 twit: https://twitter.com/billbunkum
+
+collections: 
+- reviews

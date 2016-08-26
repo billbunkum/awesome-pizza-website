@@ -8,12 +8,14 @@ title: home
 		If you don't know, now you know.
 	</div>
 </div>
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12">	
 			<img class="pizza-image img-responsive" src="thin-crust-pizza.jpg" alt="pizza" />
 		</div>
-		<div class="col-xs-3">
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
 			<address>
 				<h2>address:</h2>
 				Cool Bot Pizza<br />
@@ -21,8 +23,7 @@ title: home
 				deep up in ya, USA<br />
 			</address>
 		</div>
-				<div class="col-xs-3">
-			<address>
+		<div class="col-xs-4">
 				<h2>social links:</h2>
 				<ul>
 					<li><a href="[twit]">twitter</a>
@@ -30,13 +31,20 @@ title: home
 					<li><a href="[github]">github</a>
 					</li>
 				</ul>
-			</address>
+		</div>
+		<div class="col-xs-4">
+				<h2>Reviews:</h2>
+				<ul>
+					{% for review in site.reviews %}
+					<li><a href="{{ review.url }}">{{ review.title }}</a></li>
+					{% endfor %}
+				</ul>
 		</div>
 	</div>
-</div>
 
+	<div class="">
+		<p />SEVERAL years have now elapsed since I first became aware that I had accepted, even from my youth, many false opinions for true, and that consequently what I afterward based on such principles was highly doubtful; and from that time I was convinced of the necessity of undertaking once in my life to rid myself of all the opinions I had adopted, and of commencing anew the work of building from the foundation, if I desired to establish a firm and abiding superstructure in the sciences.
 
-<p />SEVERAL years have now elapsed since I first became aware that I had accepted, even from my youth, many false opinions for true, and that consequently what I afterward based on such principles was highly doubtful; and from that time I was convinced of the necessity of undertaking once in my life to rid myself of all the opinions I had adopted, and of commencing anew the work of building from the foundation, if I desired to establish a firm and abiding superstructure in the sciences.
-
-<p />But as this enterprise appeared to me to be one of great magnitude, I waited until I had attained an age so mature as to leave me no hope that at any stage of life more advanced I should be better able to execute my design.
-<br />--Decartes
+		<p />But as this enterprise appeared to me to be one of great magnitude, I waited until I had attained an age so mature as to leave me no hope that at any stage of life more advanced I should be better able to execute my design.
+		<br />--Decartes
+	</div>
